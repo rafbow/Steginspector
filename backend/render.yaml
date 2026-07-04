@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: steginspector-backend
+    runtime: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://steginspector.vercel.app
+    disk:
+      name: steginspector-data
+      mountPath: /app/data
+      sizeGB: 1
