@@ -1,0 +1,25 @@
+Error: [31m  Failed to scan for dependencies from entries:
+  E:/DATA RAFI/Kuliahh/Pem. Seluler/Tools Cyber/Stegano/frontend/index.html
+
+  [39m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNo matching export in "src/api/client.js" for import "API_URL"[0m
+
+    src/pages/Settings.jsx:2:9:
+[37m      2 │ import { [32mAPI_URL[37m } from '../api/client.js'
+        ╵          [32m~~~~~~~[0m
+
+
+    at failureErrorWithLog (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:1467:15)
+    at E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:926:25
+    at runOnEndCallbacks (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:1307:45)
+    at buildResponseToResult (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:924:7)
+    at E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:936:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:935:54)
+    at handleRequest (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:628:17)
+    at handleIncomingPacket (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:653:7)
+    at Socket.readFromStdout (E:\DATA RAFI\Kuliahh\Pem. Seluler\Tools Cyber\Stegano\frontend\node_modules\esbuild\lib\main.js:581:7)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
